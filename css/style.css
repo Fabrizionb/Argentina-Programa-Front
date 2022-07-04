@@ -35,7 +35,7 @@
   --mb-4: 2rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
-  --mt-6: 15rem;
+  --mt-6: 2rem;
 }
 
 /* BASE */
@@ -46,6 +46,7 @@
 
 html{
   scroll-behavior: smooth;
+  background-color: #e9ecef!important;
 }
 
 h1,h2,p{
@@ -62,18 +63,18 @@ ul{
 a{
   text-decoration: none;
 }
-img{
+/* img{
   max-width: 100%;
   height: auto;
   display: block;
-} 
+}  */
 
 .sectionOne {
     margin-top: var(--mt-6)
 }
 
 /* CLASS CSS  */
-/* .section-title{
+ /* .section-title{
     position: relative!important;
     font-size: var(--h2-font-size)!important;
     color: var(--first-color)!important;
@@ -91,11 +92,11 @@ img{
     margin: auto!important;
     top: 2rem!important;
     background-color: orange!important;
-  }
-  .section{
+  } */
+  /* .section{
     padding-top: 3rem!important;
     padding-bottom: 2rem!important;
-  } */
+  } */ */
 
   /*===== HOME =====*/
 .home{
@@ -131,4 +132,21 @@ img{
     right: 0;
     bottom: 0;
     width: 295px;
+  }
+
+  i {
+    font-size: var(--h2-font-size);
+  }
+
+  img.banner {
+    margin-top: 1vh;
+    border-radius: 270px !important;
+  }
+
+  .navbar {
+    background-color: #e9ecef;
+  }
+
+  body {
+    background-color: #e9ecef;
   }
