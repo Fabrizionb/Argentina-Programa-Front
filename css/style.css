@@ -166,6 +166,7 @@ i {
 
 img.banner {
   margin-top: 1vh;
+  max-height: 20%;
   border-radius: 270px !important;
 }
 
@@ -332,6 +333,7 @@ color:#337ff1;
   border: 1px solid var(--bg-black-50);
   border-radius: 10px;
   width: 100%;
+  
   position: relative;
 }
 
@@ -403,3 +405,8 @@ section.sectionTrhee {
 .btns:hover {
 background-color: #0a4fb7;
 }
+
+img.expCiu {
+  width: 30%!important;
+}
+
