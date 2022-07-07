@@ -223,14 +223,14 @@ color:#337ff1;
 }
 
 .about .about-content .personal-info {
-  flex: 0 0 60%;
-  max-width: 60%;
+  flex: 0 0 50%;
+  max-width: 50%;
   margin-top: 40px;
 }
 
 .about .about-content .personal-info .info-item {
-  flex: 0 0 50%;
-  max-width: 50%;
+  /* flex: 0 0 50%; */
+  max-width: 100%;
 }
 
 .about .about-content .personal-info .info-item p {
@@ -408,5 +408,35 @@ background-color: #0a4fb7;
 
 img.expCiu {
   width: 30%!important;
+}
+
+
+
+@media only screen and (max-width:767px){
+  img.banner {
+    display:none;
+  }
+
+  .timeline-item{
+    display:block!important;
+  }
+
+  .education {
+    display:inline!important;
+  }
+
+  .experience {
+    display:block!important;
+  }
+  
+}
+
+@media only screen and (min-width:992px){
+  
+ .info-item{
+  display:block!important;
+ }
+
+
 }
 
